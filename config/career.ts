@@ -11,6 +11,7 @@ export interface CareerExperienceInterface {
   skills: ValidSkills[];
   companyUrl?: string;
   logo?: string;
+  color?: string;
 }
 
 export const careerExperiences: CareerExperienceInterface[] = [

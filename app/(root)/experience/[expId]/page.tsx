@@ -126,7 +126,7 @@ export default function Experience({ params }: ExperiencePageProps) {
             <div>
               <p>{page.description}</p>
               {page.imgArr.map((img, ind) => (
-                <div className="relative h-[300px] mb-9">
+                <div key={ind} className="relative h-[300px] mb-9">
                   <Image
                     src={img}
                     key={ind}

@@ -58,7 +58,14 @@ export type ValidSkills =
   | "Firebase Notification"
   | "Firebase Crashlytics"
   | "Figma"
-  | "Agile (Scrum)";
+  | "Agile (Scrum)"
+  | "JavaScript"
+  | "CSS3"
+  | "HTML5"
+  | ".NET"
+  | "C#"
+  | "Geliştirme Süreci Gözlemi"
+  | "Temel Yazılım Pratikleri";
 
 export type ValidCategory =
   | "Full Stack"
@@ -67,9 +74,13 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "3D Modeling"
+  | "Profesyonel"
+  | "React Native"
+  | "Frontend Development"
+  | "Mobile Engineering";
 
-export type ValidExpType = "Personal Project" | "Professional";
+export type ValidExpType = "Personal Project" | "Professional" | "Profesyonel";
 
 export type ValidPages =
   | "home"
@@ -77,5 +88,4 @@ export type ValidPages =
   | "experience"
   | "career"
   | "contact"
-  | "contributions"
   | "resume";

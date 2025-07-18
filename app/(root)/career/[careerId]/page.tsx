@@ -80,7 +80,7 @@ export default function CareerDetailPage({ params }: CareerDetailPageProps) {
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-3 sm:gap-4 mb-4 md:mb-0">
             {career.logo ? (
               <div
-                className={`relative w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-primary overflow-hidden ${career.color}`}
+                className={`relative w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-primary overflow-hidden ${career?.color}`}
               >
                 <Image
                   src={career.logo}
