@@ -68,6 +68,12 @@ export const Experiences: ExperienceInterface[] = [
         imgArr: ["/experience/bt7.jpg"],
       },
       {
+        title: "Ödeme Sistemi",
+        description:
+          "Apple Pay ve Google Pay entegrasyonları ile kullanıcıların hızlı ve güvenli ödeme yapması sağlandı. Uygulama içi satın alma akışları sorunsuz ve kullanıcı dostu şekilde tasarlandı.",
+        imgArr: [],
+      },
+      {
         title: "Bildirim Sistemi",
         description:
           "Firebase Notification ile entegre edilen sistem sayesinde kullanıcıya düzenli hatırlatmalar ve terapi önerileri sunuldu.",
